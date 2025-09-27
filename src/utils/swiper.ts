@@ -89,10 +89,9 @@ export function swiperTeam(): void {
     centeredSlides: true,
     slidesPerView: 'auto',
     spaceBetween: 48,
-
     freeMode: true,
     autoplay: {
-      delay: 400,
+      delay: 800,
       disableOnInteraction: false,
       pauseOnMouseEnter: true,
     },
