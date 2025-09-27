@@ -1,7 +1,9 @@
 .section_hero:hover {
-  cursor: url('https://uploads-ssl.webflow.com/65c9e33d79bb75bfc766d6f0/661401613d64c19a592076ec_cursor-big.svg') 0 0, auto;
+  cursor:
+    url('https://uploads-ssl.webflow.com/65c9e33d79bb75bfc766d6f0/661401613d64c19a592076ec_cursor-big.svg')
+      0 0,
+    auto;
 }
-
 
 .swiper-wrapper {
   overflow: visible !important;
@@ -43,14 +45,18 @@
 .swiper-slide.is-references.swiper-slide-active .references_quote-wrapper {
   background-color: var(--border-color--border-brand);
   border-color: var(--border-color--border-brand);
-  transition: background-color 0.5s, color 0.5s, border-color 0.5s, filter 0.5s;
+  transition:
+    background-color 0.5s,
+    color 0.5s,
+    border-color 0.5s,
+    filter 0.5s;
 }
 
-.swiper-slide.is-references.swiper-slide-active .references_quote-wrapper  {
+.swiper-slide.is-references.swiper-slide-active .references_quote-wrapper {
   transform: scale(1.6) !important;
 }
 
-.swiper-slide.is-references.swiper-slide-active .references_quote  {
+.swiper-slide.is-references.swiper-slide-active .references_quote {
   transform: scale(1.4) !important;
 }
 
@@ -83,7 +89,7 @@
 
 .swiper-scrollbar.swiper-scrollbar-horizontal {
   background-color: var(--background-color--background-tertiary);
-  position: relative ! important;
+  position: relative !important;
   cursor: grab;
   border-radius: 0px;
   min-height: 0.5rem;
@@ -92,7 +98,6 @@
 .swiper-scrollbar-drag {
   background: var(--background-color--background-contrast) !important;
 }
-
 
 .swiper-slide.is-risque.w-dyn-item {
   opacity: 0 !important;
@@ -104,16 +109,14 @@
   transition: opacity 0.5s ease-in-out !important;
 }
 
-
 .swiper-slide.is-risque.w-dyn-item .risque_text-wrapper {
   position: relative;
-  left: 2rem; 
-  transition: left 0.5s ease-in-out; 
+  left: 2rem;
+  transition: left 0.5s ease-in-out;
 }
 
-
 .swiper-slide.is-risque.w-dyn-item.swiper-slide-active .risque_text-wrapper {
-  left: 0rem; 
+  left: 0rem;
 }
 
 /*
@@ -131,10 +134,12 @@
   transition: opacity 0.5s ease-in-out !important;
 }
 
-.swiper-left.is-uc.swiper-button-disabled, .swiper-right.is-risque.swiper-button-disabled {
+.swiper-left.is-uc.swiper-button-disabled,
+.swiper-right.is-risque.swiper-button-disabled {
   opacity: 0.15;
 }
 
-.swiper-right.is-uc.swiper-button-disabled, .swiper-left.is-risque.swiper-button-disabled {
+.swiper-right.is-uc.swiper-button-disabled,
+.swiper-left.is-risque.swiper-button-disabled {
   opacity: 0.15;
 }

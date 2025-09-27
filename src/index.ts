@@ -10,7 +10,13 @@ import {
   swipeElement,
 } from '$utils/jquery';
 import { loadScript } from '$utils/loadScript';
-import { swiperPartners, swiperReferences, swiperRisque, swiperUseCase } from '$utils/swiper';
+import {
+  swiperPartners,
+  swiperReferences,
+  swiperRisque,
+  swiperTeam,
+  swiperUseCase,
+} from '$utils/swiper';
 import { tradMonth } from '$utils/tradmonth';
 
 window.Webflow ||= [];
@@ -78,6 +84,7 @@ window.Webflow.push(() => {
     swiperPartners();
     swiperReferences();
     swiperRisque();
+    swiperTeam();
   }
 
   if (path.includes('/use-case')) {

@@ -1,6 +1,5 @@
 import 'swiper/css/bundle';
 
-// @ts-expect-error : swiper bundle root
 import Swiper from 'swiper/bundle';
 
 export function swiperPartners() {
@@ -22,7 +21,7 @@ export function swiperPartners() {
 export function swiperRisque(): void {
   new Swiper('.swiper.is-risque', {
     effect: 'fade',
-    crossfade: true,
+    /* crossfade: true, */
     direction: 'horizontal',
     scrollbar: {
       el: '.swiper-scrollbar',
@@ -80,5 +79,24 @@ export function swiperUseCase(): void {
     slidesPerView: 'auto',
     spaceBetween: '20rem',
     speed: 1000,
+  });
+}
+
+export function swiperTeam(): void {
+  new Swiper('.swiper.is-team', {
+    direction: 'horizontal',
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    spaceBetween: 48,
+
+    freeMode: true,
+    autoplay: {
+      delay: 400,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    speed: 800,
+    createElements: true,
   });
 }
