@@ -89,13 +89,11 @@ export function swiperTeam(): void {
     centeredSlides: true,
     slidesPerView: 'auto',
     spaceBetween: 48,
-    freeMode: true,
     autoplay: {
-      delay: 800,
+      delay: 0,
       disableOnInteraction: false,
       pauseOnMouseEnter: true,
     },
-    speed: 800,
-    createElements: true,
+    speed: 8000,
   });
 }

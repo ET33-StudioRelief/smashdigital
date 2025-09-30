@@ -143,3 +143,9 @@
 .swiper-left.is-risque.swiper-button-disabled {
   opacity: 0.15;
 }
+/*
+! Swiper Team
+*/
+.swiper.is-team .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
